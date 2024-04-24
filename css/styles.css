@@ -1,0 +1,27 @@
+body {
+  color: #ffffff;
+  background-color: #337ab7;
+  text-align: justify;
+  width: 256px;
+}
+
+div {
+  margin-top: 1em;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.5em;
+}
+
+button {
+  color: #ff8200;
+  width: 100%;
+  margin-top: 1em;
+}

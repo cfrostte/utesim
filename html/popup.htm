@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="/css/styles.css">
+
+<div>
+    <label for="tarifa">Tarifa</label>
+    <select id="tarifa">
+        <option value="TRT">Residencial Triple</option>
+        <option value="TRD">Residencial Doble</option>
+        <option value="TRS">Residencial Simple</option>
+        <option value="TGS">General Simple</option>
+        <option value="THE">Horaria Estacional</option>
+        <option value="MC1">Mediano Consumidor</option>
+    </select>
+</div>
+
+<div>
+    <label for="desde">Desde</label>
+    <input type="date" id="desde">
+</div>
+
+<div>
+    <label for="hasta">Hasta</label>
+    <input type="date" id="hasta">
+</div>
+
+<div>
+    <label for="potencia">Potencia</label>
+    <input type="number" id="potencia" min="0" step=".1" value="4">
+</div>
+
+<button id="simular">SIMULAR</button>
+
+<script src="/js/popup.js"></script>
